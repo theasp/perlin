@@ -1,4 +1,4 @@
-(ns perlin.core)
+(ns io.github.theasp.perlin)
 
 #?(:clj (def floor #(int (Math/floor %)))
    :cljs (def floor js/Math.floor))

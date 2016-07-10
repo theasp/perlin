@@ -1,6 +1,6 @@
 (ns perlin.core-test
   (:import (perlin Reference))
-  (:use [perlin.core] :reload-all)
+  (:use [io.github.theasp.perlin] :reload-all)
   (:use [clojure.test]))
 
 (deftest test-fade
